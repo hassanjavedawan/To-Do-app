@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="sticky-top">
+    <nav class="navbar ">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+        Todo list
+      </a>
+    </nav>
+    <h1> My To Do list</h1>
+
+  <div class="main">
+    <input type="text" id="todo-item" placeholder="Title" />
+    <abbr title="Add Item">
+      <button type="button" onclick="addItem()" class="butn "><i class="fa fa-plus" aria-hidden="true"></i></button></abbr>
+   
+  </div>  </div>
+
+  <div >
+    <ol id="list">
+        
+      
+    </ol>
+    <div id="deleteall">
+    <abbr title="Delete All item" >
+      <button type="button" onclick="delAll()" class="deleteall">Delete all</button></abbr></div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
